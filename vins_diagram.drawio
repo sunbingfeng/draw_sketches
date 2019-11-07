@@ -1,11 +1,11 @@
-<mxfile type="github" version="12.2.2" host="www.draw.io" modified="2019-11-07T01:44:12.770Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; rv:11.0) like Gecko" etag="hpq1rCmocxww9HKbqFfd" pages="1">
+<mxfile type="github" version="12.2.2" host="www.draw.io" modified="2019-11-07T02:01:48.358Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; rv:11.0) like Gecko" etag="WCI3o1_W2UlorpBQPomB" pages="1">
   <diagram id="OJFiDieatQdQTLAPX1Gk" name="Page-1">
     <mxGraphModel grid="1" dx="1008" dy="430" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
         <mxCell value="" id="ZuoTvDgqf3BM1FpR6HDb-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;comic=0;glass=0;" vertex="1">
-          <mxGeometry as="geometry" height="350" width="560" y="100" x="120"/>
+          <mxGeometry as="geometry" height="350" width="560" y="105" x="120"/>
         </mxCell>
         <mxCell value="Estimator" id="ZuoTvDgqf3BM1FpR6HDb-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1">
           <mxGeometry as="geometry" height="190" width="100" y="130" x="150"/>
@@ -31,7 +31,7 @@
         <mxCell value="回环约束优化" id="ZuoTvDgqf3BM1FpR6HDb-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1">
           <mxGeometry as="geometry" height="40" width="120" y="340" x="350"/>
         </mxCell>
-        <mxCell value="输出关键帧以及VIO位姿" id="ZuoTvDgqf3BM1FpR6HDb-14" parent="1" style="shape=corner;whiteSpace=wrap;html=1;dx=0;dy=0;" vertex="1">
+        <mxCell value="输出VIO位姿" id="ZuoTvDgqf3BM1FpR6HDb-14" parent="1" style="shape=corner;whiteSpace=wrap;html=1;dx=0;dy=0;" vertex="1">
           <mxGeometry as="geometry" height="100" width="40" y="210" x="280"/>
         </mxCell>
         <mxCell value="" id="ZuoTvDgqf3BM1FpR6HDb-16" parent="1" target="ZuoTvDgqf3BM1FpR6HDb-14" edge="1" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=100;entryPerimeter=0;" source="ZuoTvDgqf3BM1FpR6HDb-3">
@@ -86,14 +86,14 @@
             <mxPoint as="targetPoint" y="190" x="100"/>
           </mxGeometry>
         </mxCell>
-        <mxCell value="输入Image/IMU" id="ZuoTvDgqf3BM1FpR6HDb-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+        <mxCell value="输入Image" id="ZuoTvDgqf3BM1FpR6HDb-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
           <mxGeometry as="geometry" height="40" width="70" y="190" x="40"/>
         </mxCell>
         <mxCell value="&lt;p&gt;基于最新T，输出全局坐标系下的位姿&lt;/p&gt;" id="ZuoTvDgqf3BM1FpR6HDb-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
           <mxGeometry as="geometry" height="40" width="110" y="190" x="700"/>
         </mxCell>
         <mxCell value="输入GNSS" id="ZuoTvDgqf3BM1FpR6HDb-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
-          <mxGeometry as="geometry" height="40" width="70" y="240" x="40"/>
+          <mxGeometry as="geometry" height="40" width="70" y="290" x="40"/>
         </mxCell>
         <mxCell value="" id="ZuoTvDgqf3BM1FpR6HDb-38" parent="1" target="ZuoTvDgqf3BM1FpR6HDb-20" edge="1" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
           <mxGeometry as="geometry" height="50" width="50" relative="1">
@@ -104,7 +104,7 @@
         <mxCell value="" id="ZuoTvDgqf3BM1FpR6HDb-39" parent="1" target="ZuoTvDgqf3BM1FpR6HDb-37" edge="1" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;">
           <mxGeometry as="geometry" height="50" width="50" relative="1">
             <mxPoint as="sourcePoint" y="440" x="75"/>
-            <mxPoint as="targetPoint" y="330" x="110"/>
+            <mxPoint as="targetPoint" y="380" x="75"/>
           </mxGeometry>
         </mxCell>
         <mxCell value="" id="ZuoTvDgqf3BM1FpR6HDb-40" parent="1" edge="1" style="endArrow=none;html=1;">
@@ -117,6 +117,39 @@
           <mxGeometry as="geometry" height="50" width="50" relative="1">
             <mxPoint as="sourcePoint" y="440" x="499.5"/>
             <mxPoint as="targetPoint" y="260" x="500"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell value="输入IMU" id="U2DFdR36fgEDZWr9X12l-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry as="geometry" height="40" width="70" y="240" x="40"/>
+        </mxCell>
+        <mxCell value="" id="U2DFdR36fgEDZWr9X12l-2" parent="1" edge="1" style="endArrow=none;html=1;">
+          <mxGeometry as="geometry" height="50" width="50" relative="1">
+            <mxPoint as="sourcePoint" y="380" x="123"/>
+            <mxPoint as="targetPoint" y="210" x="123"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell value="" id="U2DFdR36fgEDZWr9X12l-3" parent="1" edge="1" style="endArrow=none;html=1;">
+          <mxGeometry as="geometry" height="50" width="50" relative="1">
+            <mxPoint as="sourcePoint" y="379" x="124"/>
+            <mxPoint as="targetPoint" y="379" x="320"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell value="Image" id="U2DFdR36fgEDZWr9X12l-4" parent="1" edge="1" style="endArrow=none;html=1;">
+          <mxGeometry as="geometry" height="50" width="50" relative="1">
+            <mxPoint as="sourcePoint" y="380" x="319.5"/>
+            <mxPoint as="targetPoint" y="260" x="320"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell value="" id="U2DFdR36fgEDZWr9X12l-5" parent="1" edge="1" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry as="geometry" height="50" width="50" relative="1">
+            <mxPoint as="sourcePoint" y="259.5" x="320"/>
+            <mxPoint as="targetPoint" y="259.5" x="350"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell value="" id="U2DFdR36fgEDZWr9X12l-6" parent="1" edge="1" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry as="geometry" height="50" width="50" relative="1">
+            <mxPoint as="sourcePoint" y="260" x="110"/>
+            <mxPoint as="targetPoint" y="259.5" x="140"/>
           </mxGeometry>
         </mxCell>
       </root>
