@@ -1,1 +1,65 @@
-<mxfile host="www.draw.io" modified="2019-12-11T12:38:43.629Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="cGN6Grzz-pp_OZUL6c_X" version="12.3.9" type="github" pages="1"><diagram id="D863qstZuLOjFjRP0NJ3" name="Page-1">ddHBEoIgEADQr+GOUubdrC6dPHRmZBNm0GWQRuvr00Eyxrowy9uFZRbCinY8W27kFQVoklIxEnYkaXrIs2md4elhl1EPjVXCU7JCpV6wYCh7KAF9VOgQtVMmxhq7DmoXGbcWh7jsjjruangDG6hqrrd6U8JJr/mern4B1cjQOaFLpuWheIFecoHDF7GSsMIiOh+1YwF6nl2Yiz93+pP9PMxC534cmIL17mkTfRAr3w==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-12-11T12:45:39.361Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="GanRY5sHxO8k2Rthki4j" version="12.3.9" type="github" pages="1">
+  <diagram id="D863qstZuLOjFjRP0NJ3" name="Page-1">
+    <mxGraphModel dx="786" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="V-gPwlQsQdfMuetmsSFg-1" value="车身本地存储" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="220" y="300" width="85" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="V-gPwlQsQdfMuetmsSFg-2" value="摄像头传感器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="160" y="180" width="50" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="V-gPwlQsQdfMuetmsSFg-3" value="激光传感器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="180" width="50" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="V-gPwlQsQdfMuetmsSFg-4" value="其他传感器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="180" width="50" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="V-gPwlQsQdfMuetmsSFg-5" value="" style="endArrow=classic;html=1;entryX=0.2;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="V-gPwlQsQdfMuetmsSFg-2" target="V-gPwlQsQdfMuetmsSFg-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="300" as="sourcePoint"/>
+            <mxPoint x="260" y="250" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V-gPwlQsQdfMuetmsSFg-6" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="V-gPwlQsQdfMuetmsSFg-3" target="V-gPwlQsQdfMuetmsSFg-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215" y="250" as="sourcePoint"/>
+            <mxPoint x="250.01999999999998" y="324" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V-gPwlQsQdfMuetmsSFg-7" value="" style="endArrow=classic;html=1;entryX=0.729;entryY=-0.033;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="V-gPwlQsQdfMuetmsSFg-4" target="V-gPwlQsQdfMuetmsSFg-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="285" y="250" as="sourcePoint"/>
+            <mxPoint x="285" y="310" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V-gPwlQsQdfMuetmsSFg-8" value="分布式云端存储" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="550" y="280" width="160" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="V-gPwlQsQdfMuetmsSFg-11" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="340" as="sourcePoint"/>
+            <mxPoint x="310" y="340" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V-gPwlQsQdfMuetmsSFg-12" value="同步最新数据，比如：高精地图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="V-gPwlQsQdfMuetmsSFg-11">
+          <mxGeometry x="-0.2892" y="-4" relative="1" as="geometry">
+            <mxPoint x="-28" y="-16" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V-gPwlQsQdfMuetmsSFg-13" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="372" as="sourcePoint"/>
+            <mxPoint x="550" y="372" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V-gPwlQsQdfMuetmsSFg-14" value="上传最新采集车身数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="V-gPwlQsQdfMuetmsSFg-13">
+          <mxGeometry x="-0.0696" y="1" relative="1" as="geometry">
+            <mxPoint x="-2" y="19" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
