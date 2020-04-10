@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-10T04:12:31.087Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="hwB2O_PATBw4BqdCiKVH" version="12.9.10" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-04-10T04:15:53.126Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="7X_Cfhy8p98AGjZ_bqek" version="12.9.10" type="github" pages="6">
   <diagram id="E4djUkXJgHmOQ1qHG0AQ" name="Page-1">
     <mxGraphModel dx="786" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -563,6 +563,41 @@
       <root>
         <mxCell id="fsCBA4QAUGkuQ_ToFVi7-0" />
         <mxCell id="fsCBA4QAUGkuQ_ToFVi7-1" parent="fsCBA4QAUGkuQ_ToFVi7-0" />
+        <mxCell id="l9axto4irrNnk-0l5wFd-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.025;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fsCBA4QAUGkuQ_ToFVi7-1" source="IndkQ_Inlz-10g6pi7SU-0" target="l9axto4irrNnk-0l5wFd-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l9axto4irrNnk-0l5wFd-7" value="相对位姿" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l9axto4irrNnk-0l5wFd-2">
+          <mxGeometry x="-0.6" y="-1" relative="1" as="geometry">
+            <mxPoint x="16" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IndkQ_Inlz-10g6pi7SU-0" value="LSLAM模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fsCBA4QAUGkuQ_ToFVi7-1">
+          <mxGeometry x="190" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l9axto4irrNnk-0l5wFd-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="fsCBA4QAUGkuQ_ToFVi7-1" source="l9axto4irrNnk-0l5wFd-0" target="l9axto4irrNnk-0l5wFd-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l9axto4irrNnk-0l5wFd-8" value="绝对位姿" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l9axto4irrNnk-0l5wFd-3">
+          <mxGeometry x="-0.36" y="-1" relative="1" as="geometry">
+            <mxPoint y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l9axto4irrNnk-0l5wFd-0" value="GNSS模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fsCBA4QAUGkuQ_ToFVi7-1">
+          <mxGeometry x="190" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l9axto4irrNnk-0l5wFd-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fsCBA4QAUGkuQ_ToFVi7-1" source="l9axto4irrNnk-0l5wFd-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l9axto4irrNnk-0l5wFd-6" value="融合后位姿" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l9axto4irrNnk-0l5wFd-5">
+          <mxGeometry x="0.15" y="-1" relative="1" as="geometry">
+            <mxPoint y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l9axto4irrNnk-0l5wFd-1" value="图优化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fsCBA4QAUGkuQ_ToFVi7-1">
+          <mxGeometry x="400" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
