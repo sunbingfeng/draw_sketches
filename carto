@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2020-08-27T11:55:11.971Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" etag="EpJDzBG0ZPkM1JvrU0mb" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-27T11:55:27.658Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" etag="VP5CenKmpTkMJa1R5t7S" version="13.6.5" type="github">
   <diagram id="TBFslHV461-voPUaLkLs" name="Page-1">
     <mxGraphModel dx="1355" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IwsAkIglZAWTyGawbS2_-1" value="Node" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="IwsAkIglZAWTyGawbS2_-1" value="Node" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="20" y="120" width="110" height="300" as="geometry" />
         </mxCell>
         <mxCell id="IwsAkIglZAWTyGawbS2_-6" value="AddTrajectory" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="IwsAkIglZAWTyGawbS2_-1">
           <mxGeometry x="5" y="70" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IwsAkIglZAWTyGawbS2_-2" value="MapBuilderBridge" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="IwsAkIglZAWTyGawbS2_-2" value="MapBuilderBridge" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="190" y="120" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="IwsAkIglZAWTyGawbS2_-7" value="AddTrajectory" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="IwsAkIglZAWTyGawbS2_-2">
@@ -22,7 +22,7 @@
         <mxCell id="IwsAkIglZAWTyGawbS2_-8" value="AddTrajectoryBuilder" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="IwsAkIglZAWTyGawbS2_-3">
           <mxGeometry y="140" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IwsAkIglZAWTyGawbS2_-4" value="SensorBridge" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="IwsAkIglZAWTyGawbS2_-4" value="SensorBridge" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="330" y="120" width="110" height="300" as="geometry" />
         </mxCell>
         <mxCell id="IwsAkIglZAWTyGawbS2_-9" value="Construct" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="IwsAkIglZAWTyGawbS2_-4">
