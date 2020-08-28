@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-28T06:58:13.743Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" etag="AsmgBg-S2i3LckyOGNeV" version="13.6.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-08-28T09:10:16.571Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" etag="K0aXZKRWl5q412U-hslB" version="13.6.5" type="github" pages="6">
   <diagram id="TBFslHV461-voPUaLkLs" name="init">
     <mxGraphModel dx="1355" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -675,6 +675,21 @@
         </mxCell>
         <mxCell id="Gpu4qJUBpBlDllayZBTB-11" value="+ Schedule&#xa;+ AddDependency&#xa;+ AddDependentTask&#xa;+ OnDependenyCompleted&#xa;+ Execute&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Gpu4qJUBpBlDllayZBTB-8">
           <mxGeometry y="118" width="160" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="Gpu4qJUBpBlDllayZBTB-12" value="ThreadPool" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;" vertex="1" parent="QnqVs1P1PxvRDNaX_Db0-1">
+          <mxGeometry x="425" y="100" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="uGy73iWlFm2ukBgPXDVW-0" value="Schedule" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Gpu4qJUBpBlDllayZBTB-12">
+          <mxGeometry x="5" y="70" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Gpu4qJUBpBlDllayZBTB-13" value="Task" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;" vertex="1" parent="QnqVs1P1PxvRDNaX_Db0-1">
+          <mxGeometry x="630" y="100" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="uGy73iWlFm2ukBgPXDVW-1" value="SetThreadPool" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Gpu4qJUBpBlDllayZBTB-13">
+          <mxGeometry y="95" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uGy73iWlFm2ukBgPXDVW-2" value="Task 1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;" vertex="1" parent="QnqVs1P1PxvRDNaX_Db0-1">
+          <mxGeometry x="780" y="100" width="100" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
