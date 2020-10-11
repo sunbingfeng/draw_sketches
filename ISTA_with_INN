@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-11T10:11:23.288Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="Ay6lwsw6wzqb5cGZb9Yf" version="13.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-11T10:14:46.192Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="mjE9tMZBo0AalBVW2uoY" version="13.7.9" type="github">
   <diagram id="AqhUcIz0FwVcH80WaVIQ" name="Page-1">
     <mxGraphModel dx="1310" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -124,6 +124,34 @@
         <mxCell id="IP29d87GwpXwPyhBPFot-47" value="review" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IP29d87GwpXwPyhBPFot-46">
           <mxGeometry x="-0.0399" relative="1" as="geometry">
             <mxPoint y="-19.74" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IP29d87GwpXwPyhBPFot-48" value="" style="curved=1;endArrow=classic;html=1;fillColor=#808080;fontColor=#3333FF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="320" as="sourcePoint" />
+            <mxPoint x="340" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IP29d87GwpXwPyhBPFot-49" value="&lt;font color=&quot;#000000&quot;&gt;Removed&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#3333FF;" vertex="1" connectable="0" parent="IP29d87GwpXwPyhBPFot-48">
+          <mxGeometry x="-0.1897" relative="1" as="geometry">
+            <mxPoint x="59.1" y="7.28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IP29d87GwpXwPyhBPFot-50" value="" style="curved=1;endArrow=classic;html=1;fillColor=#808080;fontColor=#3333FF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="315" as="sourcePoint" />
+            <mxPoint x="520" y="275" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IP29d87GwpXwPyhBPFot-51" value="&lt;font color=&quot;#000000&quot;&gt;From Gaussian sample&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#3333FF;" vertex="1" connectable="0" parent="IP29d87GwpXwPyhBPFot-50">
+          <mxGeometry x="-0.1897" relative="1" as="geometry">
+            <mxPoint x="96.1" y="7.28" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
