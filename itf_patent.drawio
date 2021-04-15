@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T07:24:52.556Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="Iqw4WzMKkW3-qz24d_X-" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-15T07:35:42.635Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="41r7FH-leiWVAiohvDVC" version="14.5.3" type="github">
   <diagram id="mwQjbs6TfYdmA_ObkQcU" name="Page-1">
-    <mxGraphModel dx="1026" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="786" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,6 +18,18 @@
         </mxCell>
         <mxCell id="pb-_uc08zx9VU8N3hvFd-7" value="10.0 cm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="640" y="170" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pb-_uc08zx9VU8N3hvFd-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;rotation=90;flipV=1;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="280" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pb-_uc08zx9VU8N3hvFd-9" value="起始位" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="320" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pb-_uc08zx9VU8N3hvFd-16" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;rotation=90;flipV=1;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="275" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pb-_uc08zx9VU8N3hvFd-17" value="结束位" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="315" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
