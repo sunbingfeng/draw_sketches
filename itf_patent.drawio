@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T07:36:54.912Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="4Tjkwd3kb5TU5edaWGak" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-15T07:56:58.363Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="TIJArNnr0y4zddssPipO" version="14.5.3" type="github" pages="2">
   <diagram id="mwQjbs6TfYdmA_ObkQcU" name="Page-1">
     <mxGraphModel dx="786" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -36,6 +36,80 @@
         </mxCell>
         <mxCell id="pb-_uc08zx9VU8N3hvFd-19" value="ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="320" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="h3FoTtnk9iMjgGqWxMyq" name="Page-2">
+    <mxGraphModel dx="786" dy="1504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="WySd1Tmm8CnbsxbkeUSg-0" />
+        <mxCell id="WySd1Tmm8CnbsxbkeUSg-1" parent="WySd1Tmm8CnbsxbkeUSg-0" />
+        <mxCell id="WySd1Tmm8CnbsxbkeUSg-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WySd1Tmm8CnbsxbkeUSg-1" source="WySd1Tmm8CnbsxbkeUSg-5" target="WySd1Tmm8CnbsxbkeUSg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WySd1Tmm8CnbsxbkeUSg-5" value="&lt;span&gt;读取一帧激光帧，检测其中的符合设计长度的连续线段&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WySd1Tmm8CnbsxbkeUSg-1">
+          <mxGeometry x="300" y="50" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WySd1Tmm8CnbsxbkeUSg-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WySd1Tmm8CnbsxbkeUSg-1" source="WySd1Tmm8CnbsxbkeUSg-6" target="WySd1Tmm8CnbsxbkeUSg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WySd1Tmm8CnbsxbkeUSg-6" value="统计该线段中的激光平均反射强度" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" vertex="1" parent="WySd1Tmm8CnbsxbkeUSg-1">
+          <mxGeometry x="300" y="110" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WySd1Tmm8CnbsxbkeUSg-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WySd1Tmm8CnbsxbkeUSg-1" source="WySd1Tmm8CnbsxbkeUSg-8" target="WySd1Tmm8CnbsxbkeUSg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WySd1Tmm8CnbsxbkeUSg-8" value="使用双阈值检测连续多条激光反射条" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" vertex="1" parent="WySd1Tmm8CnbsxbkeUSg-1">
+          <mxGeometry x="300" y="170" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WySd1Tmm8CnbsxbkeUSg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WySd1Tmm8CnbsxbkeUSg-1" source="WySd1Tmm8CnbsxbkeUSg-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="260" />
+              <mxPoint x="460" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WySd1Tmm8CnbsxbkeUSg-14" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WySd1Tmm8CnbsxbkeUSg-13">
+          <mxGeometry x="-0.2783" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WySd1Tmm8CnbsxbkeUSg-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WySd1Tmm8CnbsxbkeUSg-1" source="WySd1Tmm8CnbsxbkeUSg-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WySd1Tmm8CnbsxbkeUSg-16" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WySd1Tmm8CnbsxbkeUSg-15">
+          <mxGeometry x="-0.2" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WySd1Tmm8CnbsxbkeUSg-10" value="达到预期的条数" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" vertex="1" parent="WySd1Tmm8CnbsxbkeUSg-1">
+          <mxGeometry x="335" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WySd1Tmm8CnbsxbkeUSg-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WySd1Tmm8CnbsxbkeUSg-1" source="WySd1Tmm8CnbsxbkeUSg-17" target="WySd1Tmm8CnbsxbkeUSg-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WySd1Tmm8CnbsxbkeUSg-17" value="使用分支限界算法计算反射条的最优宽度" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" vertex="1" parent="WySd1Tmm8CnbsxbkeUSg-1">
+          <mxGeometry x="300" y="330" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WySd1Tmm8CnbsxbkeUSg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WySd1Tmm8CnbsxbkeUSg-1" source="WySd1Tmm8CnbsxbkeUSg-18" target="WySd1Tmm8CnbsxbkeUSg-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WySd1Tmm8CnbsxbkeUSg-18" value="基于ITF编码规则解析编码" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" vertex="1" parent="WySd1Tmm8CnbsxbkeUSg-1">
+          <mxGeometry x="300" y="390" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WySd1Tmm8CnbsxbkeUSg-21" value="返回检测的编码" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WySd1Tmm8CnbsxbkeUSg-1">
+          <mxGeometry x="325" y="450" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WySd1Tmm8CnbsxbkeUSg-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WySd1Tmm8CnbsxbkeUSg-1" source="WySd1Tmm8CnbsxbkeUSg-23" target="WySd1Tmm8CnbsxbkeUSg-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WySd1Tmm8CnbsxbkeUSg-23" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WySd1Tmm8CnbsxbkeUSg-1">
+          <mxGeometry x="325" y="-10" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
